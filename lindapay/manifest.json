@@ -6,6 +6,6 @@
         "type": "image/png"
     }],
     "serviceworker": {
-        "src": "app.js",
-    },
+        "src": "app.js"
+    }
 }
