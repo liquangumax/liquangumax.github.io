@@ -29,7 +29,8 @@
     <button onclick="navigator.serviceWorker.controller.postMessage('confirm')">Confirm</button>
     <button onclick="navigator.serviceWorker.controller.postMessage('reject')">Reject</button>
     <button onclick="navigator.serviceWorker.controller.postMessage('cancel')">Cancel</button>
-    <button onclick="window.close()">Close Window</button>
+    <button onclick="navigator.serviceWorker.controller.postMessage('cancel')">Cancel</button>
+    <button onclick="navigator.credentials.get()">navigator.credentials.get()</button>
     <button onclick="loadInsecureContent()">Load Insecure Content</button>
 </div>
 <div>
