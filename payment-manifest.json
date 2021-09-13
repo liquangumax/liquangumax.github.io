@@ -1,4 +1,4 @@
 {
     "default_applications": ["https://liquangumax.github.io/lindapay/manifest.json"],
-    "supported_origins": ["https://maxlgu.github.io", "https://skilful-reserve-239412.appspot.com", "https://liquangumax.github.io"]
+    "supported_origins": ["https://maxlgu.github.io", "https://liquangumax.github.io"]
 }
