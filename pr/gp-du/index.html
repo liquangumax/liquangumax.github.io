@@ -169,8 +169,8 @@
       paymentDataRequest.merchantInfo = {
         // @todo a merchant ID is available for a production environment after approval by Google
         // See {@link https://developers.google.com/pay/api/web/guides/test-and-deploy/integration-checklist|Integration checklist}
-        merchantId: '04815916544974054686',
-        merchantName: 'testApp Payment Request'
+           merchantName: "MaxPay Test Page",
+           merchantId: "BCR2DN6TV7PMRB22"
       };
 
       paymentDataRequest.callbackIntents = ["SHIPPING_ADDRESS",  "SHIPPING_OPTION", "PAYMENT_AUTHORIZATION"];
@@ -192,8 +192,8 @@
         paymentsClient = new google.payments.api.PaymentsClient({
           environment: "TEST",
           merchantInfo: {
-            merchantName: "Example Merchant",
-            merchantId: "01234567890123456789"
+           merchantName: "MaxPay Test Page",
+           merchantId: "BCR2DN6TV7PMRB22"
           },
           paymentDataCallbacks: {
             onPaymentAuthorized: onPaymentAuthorized,
